@@ -1,0 +1,17 @@
+<resources>
+    <string name="x">x - </string>
+    <string name="y">y - </string>
+    <string name="r">radius - </string>
+    <string name="c1">Circle 1:</string>
+    <string name="c2">Circle 2:</string>
+    <string name="result">Result: %s</string>
+    <string name="button">Calculate</string>
+    <string name="description1">Enter a number</string>
+    <string-array name="circles_relation">
+        <item>Incorrect circle</item>
+        <item>The circles intersect</item>
+        <item>The circles no intersect</item>
+        <item>The circles touch</item>
+        <item>One circle is inside another</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    tools:ignore="MissingDefaultResource"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.smartcalculator.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_circles"
+            app:destination="@id/circles" />
+        <action
+            android:id="@+id/action_menuFragment_to_primeNumberFragment"
+            app:destination="@id/primeNumberFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_thermometerFragment"
+            app:destination="@id/thermometerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/circles"
+        android:name="com.example.circles.Circles"
+        android:label="Circles" />
+    <fragment
+        android:id="@+id/primeNumberFragment"
+        android:name="com.example.primenumbers.PrimeNumberFragment"
+        android:label="PrimeNumberFragment" />
+    <fragment
+        android:id="@+id/thermometerFragment"
+        android:name="com.example.thermometer.ThermometerFragment"
+        android:label="ThermometerFragment" />
+</navigation>

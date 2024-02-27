@@ -1,0 +1,5 @@
+<resources>
+    <string name="button">Calculate</string>
+    <string name="description1">enter a number</string>
+    <string name="description2">direction</string>
+</resources>

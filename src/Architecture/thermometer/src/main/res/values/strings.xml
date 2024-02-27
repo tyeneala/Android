@@ -1,0 +1,17 @@
+<resources>
+    <string name="season">Season</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="unit">Unit</string>
+    <string name="meaning">Meaning: </string>
+    <string name="description1">Enter value temperature </string>
+    <string name="button">Calculate </string>
+
+    <string name="mes1">The temperature is %s˚ %s</string>
+    <string name="mes2">The comfortable temperature is from %s to %s˚ %s</string>
+    <string name="mes3">The temperature is comfortable</string>
+    <string name="mes4">Please, make it warmer by %s degrees.</string>
+    <string name="mes5">Please, make it cooler by %s degrees.</string>
+
+    <string name="warning">Need enter value temperature</string>
+</resources>

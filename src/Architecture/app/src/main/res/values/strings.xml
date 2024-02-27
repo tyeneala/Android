@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartCalculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="b1">Circles</string>
+    <string name="b2">Prime number</string>
+    <string name="b3">Thermometer</string>
+</resources>
