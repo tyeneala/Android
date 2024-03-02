@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Coroutines</string>
+    <string name="hint">Enter number</string>
+    <string name="buttonOff">Run</string>
+    <string name="buttonOn">Cancel</string>
+    <string name="run_all">Run All</string>
+    <string name="cancel_all">Cancel All</string>
+    <string name="factorial">x! = </string>
+    <string name="ln">ln(x) = </string>
+    <string name="lg">lg(x) = </string>
+    <string name="sqrt_root">√x = </string>
+    <string name="cube_root">∛x = </string>
+    <string name="squaring">x² = </string>
+    <string name="cubing">x³ = </string>
+    <string name="timeout_out">timeout out</string>
+    <string name="close">Close</string>
+    <string name="error_message">An error has occurred.\n Please try again.</string>
+</resources>
